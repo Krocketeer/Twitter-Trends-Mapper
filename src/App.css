@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(245, 247, 253);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.layout {
+  display: flex;
+  flex-flow: row nowrap;
+  /*justify-content: space-around;*/
+  justify-content: flex-start;
+  box-shadow: 10px 0 18px 10px rgba(230, 230, 230, 0.5);
+}
+
+.overflow-scrolling {
+  height : 70vh;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.messages { 
+  background-color: WhiteSmoke;
+  padding: 0 10px;
+  outline: 0.75px solid rgb(185, 185, 185);
+  max-width: 25vw;
+  justify-content: flex-start;
+}
+
+.trend {
+  width: 250px;
+  margin: 0 2px;
+  padding: 25px;
+}
+
+.button {
+  border: none;
+  max-width: 20vw;
+  color: grey;
+  background-color:lightgrey;
+  padding: 15px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px 5px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: none;
+  color:black;
+}
+
+.card {
+  color: grey;
+  background-color:lightgrey;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: default;
+}
+
+.trend {
+  padding:15px;
+  text-align:left;
+}
+
+/*.trends {*/
+/*  height: 77vh;*/
+/*  overflow: hidden;*/
+/*}*/
+
+.footer {
+  display:flex;
+  align-content: space-around;
+}
+
+.about-project {
+  width: 32vw;
+  text-align: left;
+  padding: 25px 50px;
+}
+
+.copyright {
+  width: 34vw;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.about-us {
+  text-align: right;
+  padding: 25px 50px;
+  width: 33vw;
+}
