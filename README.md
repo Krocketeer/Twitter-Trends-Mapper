@@ -59,7 +59,7 @@ First run the Flask app with `python3 main.py` followed by the React app with `n
 open [http://localhost:3000](http://localhost:3000) to view the project in the browser.
 
 ### Acknowledgements
-This project was created by [Kenny Le](https://www.kennyle.com) and [Carol Lei](https://www.carollei.com)
+This project was created by [Carol Lei](https://www.carollei.com) and [Kenny Le](https://www.kennyle.com)
 for their final project in HCDE 310. We would like to give thanks to 
 [Professor Sean Munson](https://www.hcde.washington.edu/munson) and the HCDE 310 CA/TA Staff for their 
 endless support in the development of this project as well as give special thanks to [Evan Feenstra](https://evan.cool/) 
